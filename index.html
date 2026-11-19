@@ -3,282 +3,370 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Julian Mark Academia (Jm) | BSIT Portfolio</title>
+    <title>JM // Julian Mark Academia - BSIT Portfolio</title>
     <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
 
-    <!-- Mobile Top Bar + Pure CSS Side Drawer (Visible on Tablet/Mobile) -->
-    <div class="mobile-bar">
-        <a href="#overview" class="mobile-brand">jm<span>.dev</span></a>
-        <input type="checkbox" id="drawer-toggle" class="drawer-toggle">
-        <label for="drawer-toggle" class="drawer-btn" aria-label="Toggle Menu">
-            <span></span>
-            <span></span>
-            <span></span>
-        </label>
-        <label for="drawer-toggle" class="drawer-backdrop" aria-hidden="true"></label>
-        <ul class="mobile-drawer">
-            <li><a href="#overview">01. Overview</a></li>
-            <li><a href="#education">02. Education</a></li>
-            <li><a href="#skills">03. Tech Stack</a></li>
-            <li><a href="#projects">04. Roadmap</a></li>
-            <li><a href="#contact">05. Contact</a></li>
-        </ul>
-    </div>
+    <!-- Top Pure-CSS Reading Progress Line -->
+    <div class="scroll-progress" aria-hidden="true"></div>
 
-    <!-- Split-Screen Shell -->
-    <div class="layout-shell">
+    <!-- Minimalist Top Status Bar (Not a standard navbar) -->
+    <header class="studio-topbar">
+        <div class="topbar-brand">
+            <span class="brand-code">JM.DEV</span>
+            <span class="brand-divider">//</span>
+            <span class="brand-sub">PORTFOLIO '26</span>
+        </div>
+        <div class="topbar-status">
+            <span class="live-dot"></span>
+            <span>BSIT 2A &bull; HIMAMAYLAN CITY</span>
+        </div>
+    </header>
 
-        <!-- LEFT STICKY SIDEBAR (Identity Hub) -->
-        <aside class="sidebar">
-            <div class="profile-box">
-                <div class="avatar-frame">
-                    <img src="assets/photo/profile.jpeg" alt="Profile picture of Julian Mark Academia">
+    <main class="studio-container">
+
+        <!-- =========================================
+             ARCHITECTURAL HERO STAGE
+             ========================================= -->
+        <section id="hero" class="hero-stage">
+            <!-- Architectural Corner Crosshairs -->
+            <span class="crosshair tl" aria-hidden="true">+</span>
+            <span class="crosshair tr" aria-hidden="true">+</span>
+            <span class="crosshair bl" aria-hidden="true">+</span>
+            <span class="crosshair br" aria-hidden="true">+</span>
+
+            <div class="hero-left">
+                <div class="eyebrow">
+                    <span>KABANKALAN CATHOLIC COLLEGE</span>
+                    <span class="eyebrow-line"></span>
+                    <span>2ND YEAR</span>
                 </div>
-                <span class="nickname-pill">aka Jm</span>
-                <h1>Julian Mark Academia</h1>
-                <p class="role">BSIT 2nd Year &bull; Section 2A</p>
-                <p class="school-label">Kabankalan Catholic College</p>
+
+                <h1>
+                    Julian Mark
+                    <span class="outline-name">Academia</span>
+                </h1>
+
+                <p class="hero-lead">
+                    Known as <strong>Jm</strong> — a 20-year-old BSIT student building a solid foundation in software logic, web development, and MySQL databases, with a strong drive toward <strong>Mobile App</strong> &amp; <strong>Game Development</strong>.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#roadmap" class="btn-chamfer-primary">Explore Roadmap</a>
+                    <a href="#contact" class="btn-chamfer-outline">Connect With Jm &rarr;</a>
+                </div>
             </div>
 
-            <nav class="side-nav" aria-label="Primary Navigation">
-                <a href="#overview"><span>01</span> Overview</a>
-                <a href="#education"><span>02</span> Education</a>
-                <a href="#skills"><span>03</span> Tech Stack</a>
-                <a href="#projects"><span>04</span> Roadmap</a>
-                <a href="#contact"><span>05</span> Contact</a>
-            </nav>
+            <!-- Chamfered Developer ID Card -->
+            <aside class="hero-id-card">
+                <div class="chamfer-glow">
+                    <div class="chamfer-frame">
+                        <img src="assets/photo/profile.jpeg" alt="Profile picture of Julian Mark Academia">
+                    </div>
+                </div>
 
-            <div class="sidebar-footer">
-                <a href="mailto:julianmark0702@gmail.com" class="btn-sidebar">Email Me</a>
-                <a href="https://www.facebook.com/share/1Bhboc3SRz/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" class="btn-sidebar-outline">Facebook &nearr;</a>
+                <div class="id-meta">
+                    <div class="id-row">
+                        <span>HANDLE</span>
+                        <strong>@Jm</strong>
+                    </div>
+                    <div class="id-row">
+                        <span>AGE</span>
+                        <strong>20</strong>
+                    </div>
+                    <div class="id-row">
+                        <span>TRACK</span>
+                        <strong>Mobile / Game</strong>
+                    </div>
+                </div>
+            </aside>
+        </section>
+
+        <!-- =========================================
+             INFINITE PURE-CSS TECH MARQUEE
+             ========================================= -->
+        <div class="marquee-wrap" aria-label="Technologies and Tools">
+            <div class="marquee-inner">
+                <ul class="marquee-track">
+                    <li>PYTHON</li>
+                    <li>&diams;</li>
+                    <li>JAVA</li>
+                    <li>&diams;</li>
+                    <li>C++</li>
+                    <li>&diams;</li>
+                    <li>PHP</li>
+                    <li>&diams;</li>
+                    <li>MYSQL</li>
+                    <li>&diams;</li>
+                    <li>ANDROID STUDIO</li>
+                    <li>&diams;</li>
+                    <li>VS CODE</li>
+                    <li>&diams;</li>
+                    <li>XAMPP</li>
+                    <li>&diams;</li>
+                    <li>HTML &amp; CSS</li>
+                    <li>&diams;</li>
+                </ul>
+                <ul class="marquee-track" aria-hidden="true">
+                    <li>PYTHON</li>
+                    <li>&diams;</li>
+                    <li>JAVA</li>
+                    <li>&diams;</li>
+                    <li>C++</li>
+                    <li>&diams;</li>
+                    <li>PHP</li>
+                    <li>&diams;</li>
+                    <li>MYSQL</li>
+                    <li>&diams;</li>
+                    <li>ANDROID STUDIO</li>
+                    <li>&diams;</li>
+                    <li>VS CODE</li>
+                    <li>&diams;</li>
+                    <li>XAMPP</li>
+                    <li>&diams;</li>
+                    <li>HTML &amp; CSS</li>
+                    <li>&diams;</li>
+                </ul>
             </div>
-        </aside>
+        </div>
 
-        <!-- RIGHT SCROLLABLE BENTO CANVAS -->
-        <main class="canvas">
+        <!-- =========================================
+             01. CORE DISCIPLINES & PROFILE MOSAIC
+             ========================================= -->
+        <section id="disciplines" class="studio-section">
+            <div class="sec-head">
+                <span class="sec-code">01 // FOCUS</span>
+                <h2>Core IT Disciplines</h2>
+            </div>
 
-            <!-- 01. OVERVIEW & FOCUS -->
-            <section id="overview" class="block">
-                <div class="hero-panel">
-                    <span class="status-badge">
-                        <span class="pulse-dot"></span> Open to Learning &amp; Collaborations
-                    </span>
-                    <h2>Building toward <span class="gradient-text">Mobile Apps</span> &amp; <span class="gradient-text">Game Development</span>.</h2>
-                    <p class="hero-desc">
-                        Hi, I'm <strong>Jm</strong> (Julian Mark Academia), a 20-year-old IT student from Himamaylan City, Negros Occidental. I'm currently learning coding, websites, and databases, with a big interest in making mobile apps and games.
-                    </p>
-                </div>
+            <div class="mosaic-grid">
+                <article class="mosaic-card highlight-card">
+                    <div class="card-index">01</div>
+                    <h3>Mobile App Development</h3>
+                    <p>Focused on learning Android UI design, app architecture, and interactive mobile experiences using Java and Android Studio.</p>
+                    <span class="card-foot">Primary Interest</span>
+                </article>
 
-                <!-- 4-Stat Quick Strip -->
-                <div class="stats-strip">
-                    <div class="stat-tile">
-                        <span class="stat-label">Age</span>
-                        <strong class="stat-value">20</strong>
+                <article class="mosaic-card highlight-card">
+                    <div class="card-index">02</div>
+                    <h3>Game Development</h3>
+                    <p>Developing strong algorithmic thinking, object-oriented programming, and problem-solving skills through C++, Java, and Python.</p>
+                    <span class="card-foot">Primary Interest</span>
+                </article>
+
+                <article class="mosaic-card profile-summary">
+                    <div class="card-index">03</div>
+                    <h3>Student Profile</h3>
+                    <ul class="spec-list">
+                        <li><span>Full Name</span><strong>Julian Mark Academia</strong></li>
+                        <li><span>Nickname</span><strong>Jm</strong></li>
+                        <li><span>Course</span><strong>BSIT &bull; 2nd Year (2A)</strong></li>
+                        <li><span>Location</span><strong>Himamaylan City, 6108</strong></li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <!-- =========================================
+             02. EDUCATION (Architectural Numbered Blocks)
+             ========================================= -->
+        <section id="education" class="studio-section">
+            <div class="sec-head">
+                <span class="sec-code">02 // ACADEMICS</span>
+                <h2>Education</h2>
+            </div>
+
+            <div class="edu-split">
+                <article class="edu-block current-edu" data-num="01">
+                    <span class="edu-status">CURRENT &bull; 2ND YEAR (SECTION 2A)</span>
+                    <h3>Kabankalan Catholic College</h3>
+                    <p>Bachelor of Science in Information Technology (BSIT)</p>
+                </article>
+
+                <article class="edu-block" data-num="02">
+                    <span class="edu-status past">PREVIOUS SCHOOL</span>
+                    <h3>Himamaylan National High School</h3>
+                    <p>Secondary Education</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- =========================================
+             03. TECH MATRIX (Asymmetric Staggered Bento)
+             ========================================= -->
+        <section id="skills" class="studio-section">
+            <div class="sec-head">
+                <span class="sec-code">03 // ARSENAL</span>
+                <h2>Technical Stack</h2>
+            </div>
+
+            <div class="arsenal-bento">
+                <article class="arsenal-tile tile-wide">
+                    <span class="tile-label">Languages</span>
+                    <div class="chip-wrap">
+                        <span class="chip featured">Python</span>
+                        <span class="chip featured">Java</span>
+                        <span class="chip">C++</span>
+                        <span class="chip">PHP</span>
+                        <span class="chip">HTML</span>
+                        <span class="chip">CSS</span>
                     </div>
-                    <div class="stat-tile">
-                        <span class="stat-label">Program</span>
-                        <strong class="stat-value">BSIT 2A</strong>
+                </article>
+
+                <article class="arsenal-tile tile-compact">
+                    <span class="tile-label">Database</span>
+                    <div class="chip-wrap">
+                        <span class="chip featured">MySQL</span>
+                        <span class="chip">Database Management</span>
                     </div>
-                    <div class="stat-tile">
-                        <span class="stat-label">Database</span>
-                        <strong class="stat-value">MySQL</strong>
+                </article>
+
+                <article class="arsenal-tile tile-compact">
+                    <span class="tile-label">Tools &amp; IDEs</span>
+                    <div class="chip-wrap">
+                        <span class="chip">Visual Studio Code</span>
+                        <span class="chip">Android Studio</span>
+                        <span class="chip">XAMPP</span>
                     </div>
-                    <div class="stat-tile">
-                        <span class="stat-label">Location</span>
-                        <strong class="stat-value">Himamaylan</strong>
+                </article>
+
+                <article class="arsenal-tile tile-wide">
+                    <span class="tile-label">Web Development</span>
+                    <div class="chip-wrap">
+                        <span class="chip featured">Website Development</span>
+                        <span class="chip">Frontend Development</span>
+                        <span class="chip">Backend Development</span>
+                        <span class="chip">Responsive Web Design</span>
+                        <span class="chip">API Integration</span>
                     </div>
-                </div>
+                </article>
+            </div>
+        </section>
 
-                <!-- 2-Column Core IT Interests -->
-                <div class="focus-pair">
-                    <article class="focus-card">
-                        <span class="focus-index">FOCUS 01</span>
-                        <h3>Mobile App Development</h3>
-                        <p>Exploring native Android workflows and cross-device UI design using c++ and Android Studio.</p>
-                    </article>
-                    <article class="focus-card">
-                        <span class="focus-index">FOCUS 02</span>
-                        <h3>Game Development</h3>
-                        <p>Studying programming logic, problem-solving, and object-oriented foundations C++</p>
-                    </article>
-                </div>
-            </section>
+        <!-- =========================================
+             04. LEVEL-BASED ROADMAP (Game/Dev HUD Style)
+             ========================================= -->
+        <section id="roadmap" class="studio-section">
+            <div class="sec-head">
+                <span class="sec-code">04 // QUEST LOG</span>
+                <h2>Projects &amp; Learning Roadmap</h2>
+            </div>
 
-            <!-- 02. EDUCATION (Vertical Timeline Rail) -->
-            <section id="education" class="block">
-                <div class="block-header">
-                    <span class="block-num">02</span>
-                    <h2>Education</h2>
-                </div>
-
-                <div class="timeline-rail">
-                    <article class="rail-item active">
-                        <div class="rail-meta">
-                            <span class="rail-badge">Current &bull; 2nd Year (Section 2A)</span>
-                        </div>
-                        <h3>Kabankalan Catholic College</h3>
-                        <p>Bachelor of Science in Information Technology (BSIT)</p>
-                    </article>
-
-                    <article class="rail-item">
-                        <div class="rail-meta">
-                            <span class="rail-badge muted-badge">Secondary Education</span>
-                        </div>
-                        <h3>Himamaylan National High School</h3>
-                        <p>Previous School</p>
-                    </article>
-                </div>
-            </section>
-
-            <!-- 03. TECH STACK & SKILLS (Horizontal Matrix Rows) -->
-            <section id="skills" class="block">
-                <div class="block-header">
-                    <span class="block-num">03</span>
-                    <h2>Tech Stack &amp; Skills</h2>
-                </div>
-
-                <div class="skill-matrix">
-                    <div class="matrix-row">
-                        <div class="matrix-label">
-                            <h3>Programming Languages</h3>
-                            <p>Core &amp; web languages</p>
-                        </div>
-                        <ul class="matrix-tags">
-                            <li class="tag-highlight">PHP</li>
-                            <li class="tag-highlight">C++</li>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                        </ul>
+            <div class="quest-grid">
+                <article class="quest-card quest-live">
+                    <div class="quest-header">
+                        <span class="quest-lvl">LVL 01</span>
+                        <span class="quest-badge live">LIVE</span>
                     </div>
-
-                    <div class="matrix-row">
-                        <div class="matrix-label">
-                            <h3>Web Development</h3>
-                            <p>Design &amp; integration</p>
-                        </div>
-                        <ul class="matrix-tags">
-                            <li class="tag-highlight">Website Development</li>
-                            <li>Frontend Development</li>
-                            <li>Backend Development</li>
-                            <li>Responsive Web Design</li>
-                            <li>API Integration</li>
-                        </ul>
+                    <h3>Personal Portfolio Website</h3>
+                    <p>My first deployed web build—crafted with semantic HTML5 and modern CSS Grid, featuring a custom chamfered ID frame and floating dock navigation.</p>
+                    <div class="quest-stack">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Responsive UI</span>
                     </div>
+                </article>
 
-                    <div class="matrix-row">
-                        <div class="matrix-label">
-                            <h3>Database</h3>
-                            <p>Data storage &amp; queries</p>
-                        </div>
-                        <ul class="matrix-tags">
-                            <li class="tag-highlight">MySQL</li>
-                            <li>Database Management</li>
-                        </ul>
+                <article class="quest-card">
+                    <div class="quest-header">
+                        <span class="quest-lvl">LVL 02</span>
+                        <span class="quest-badge">UPCOMING</span>
                     </div>
-
-                    <div class="matrix-row">
-                        <div class="matrix-label">
-                            <h3>Tools &amp; Software</h3>
-                            <p>Development environment</p>
-                        </div>
-                        <ul class="matrix-tags">
-                            <li>Visual Studio Code</li>
-                            <li>Android Studio</li>
-                            <li>XAMPP</li>
-                        </ul>
+                    <h3>Mobile &amp; Game Logic</h3>
+                    <p>Upcoming academic practice focused on building Android app screens in Android Studio and core game logic using Java, Python, and C++.</p>
+                    <div class="quest-stack">
+                        <span>Java</span>
+                        <span>Python</span>
+                        <span>Android Studio</span>
                     </div>
-                </div>
-            </section>
+                </article>
 
-            <!-- 04. PROJECTS & LEARNING ROADMAP (Asymmetric Bento Split) -->
-            <section id="projects" class="block">
-                <div class="block-header">
-                    <span class="block-num">04</span>
-                    <h2>Projects &amp; Learning Track</h2>
-                </div>
-
-                <div class="bento-projects">
-                    <!-- Left Spotlight Card -->
-                    <article class="bento-main">
-                        <span class="project-tag live">Live Build &bull; 01</span>
-                        <h3>Personal Portfolio Website</h3>
-                        <p>My first live web project—a responsive, dark-mode professional one-page portfolio structured with modern CSS Grid, split-screen navigation, and responsive design principles.</p>
-                        <div class="bento-footer">
-                            <span>HTML</span>
-                            <span>CSS</span>
-                            <span>Responsive UI</span>
-                        </div>
-                    </article>
-
-                    <!-- Right Stacked Milestone Cards -->
-                    <div class="bento-side">
-                        <article class="bento-sub">
-                            <span class="project-tag progress">Upcoming Track &bull; 02</span>
-                            <h3>Android &amp; Game Logic Practice</h3>
-                            <p>Hands-on coursework preparing to build beginner mobile interfaces in Android Studio and core logic with Java, Python, and C++.</p>
-                            <div class="bento-footer">
-                                <span>Android Studio</span>
-                                <span>Python</span>
-                            </div>
-                        </article>
-
-                        <article class="bento-sub">
-                            <span class="project-tag progress">Upcoming Track &bull; 03</span>
-                            <h3>Dynamic Web &amp; MySQL Stack</h3>
-                            <p>Practicing local server workflows and database-connected PHP websites using XAMPP and MySQL.</p>
-                            <div class="bento-footer">
-                                <span>PHP</span>
-                                <span>MySQL</span>
-                                <span>XAMPP</span>
-                            </div>
-                        </article>
+                <article class="quest-card">
+                    <div class="quest-header">
+                        <span class="quest-lvl">LVL 03</span>
+                        <span class="quest-badge">UPCOMING</span>
                     </div>
-                </div>
-            </section>
-
-            <!-- 05. CONTACT PANEL -->
-            <section id="contact" class="block">
-                <div class="block-header">
-                    <span class="block-num">05</span>
-                    <h2>Get in Touch</h2>
-                </div>
-
-                <div class="contact-banner">
-                    <div class="contact-cta">
-                        <h3>Let's Connect</h3>
-                        <p>Feel free to reach out for school collaborations, IT discussions, or future opportunities.</p>
-                        <a href="mailto:julianmark0702@gmail.com" class="btn-primary-wide">Send an Email &rarr;</a>
+                    <h3>Dynamic Web &amp; MySQL</h3>
+                    <p>Preparing to develop database-driven web applications powered by PHP, local XAMPP servers, and structured MySQL databases.</p>
+                    <div class="quest-stack">
+                        <span>PHP</span>
+                        <span>MySQL</span>
+                        <span>XAMPP</span>
                     </div>
+                </article>
+            </div>
+        </section>
 
-                    <div class="contact-details">
-                        <a href="mailto:julianmark0702@gmail.com" class="detail-item">
-                            <span>Email</span>
-                            <strong>julianmark0702@gmail.com</strong>
-                        </a>
-                        <a href="tel:+639275819801" class="detail-item">
-                            <span>Phone</span>
-                            <strong>(927) 581-9801</strong>
-                        </a>
-                        <a href="https://www.facebook.com/share/1Bhboc3SRz/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" class="detail-item">
-                            <span>Facebook</span>
-                            <strong>Julian Mark Academia &nearr;</strong>
-                        </a>
-                        <div class="detail-item">
-                            <span>Address</span>
-                            <strong>Brgy. 2 Sitio Bunyod, Himamaylan City, Negros Occ., 6108</strong>
-                        </div>
+        <!-- =========================================
+             05. CONTACT CONSOLE
+             ========================================= -->
+        <section id="contact" class="studio-section">
+            <div class="sec-head">
+                <span class="sec-code">05 // CONNECT</span>
+                <h2>Contact Console</h2>
+            </div>
+
+            <div class="console-box">
+                <div class="console-grid">
+                    <a href="mailto:julianmark0702@gmail.com" class="console-link">
+                        <span class="c-label">EMAIL</span>
+                        <strong>julianmark0702@gmail.com</strong>
+                    </a>
+
+                    <a href="tel:+639275819801" class="console-link">
+                        <span class="c-label">CONTACT NUMBER</span>
+                        <strong>(927) 581-9801</strong>
+                    </a>
+
+                    <a href="https://www.facebook.com/share/1Bhboc3SRz/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" class="console-link">
+                        <span class="c-label">FACEBOOK</span>
+                        <strong>Julian Mark Academia &nearr;</strong>
+                    </a>
+
+                    <div class="console-link">
+                        <span class="c-label">ADDRESS</span>
+                        <strong>Brgy. 2 Sitio Bunyod, Himamaylan City, Negros Occ., 6108</strong>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <footer class="canvas-footer">
-                <p>&copy; 2026 Julian Mark Academia (Jm).</p>
-            </footer>
+        <footer class="studio-footer">
+            <p>&copy; 2026 Julian Mark Academia (Jm) &bull; Kabankalan Catholic College &bull; BSIT 2A</p>
+        </footer>
 
-        </main>
-    </div>
+    </main>
+
+    <!-- =========================================
+         FLOATING GLASS BOTTOM DOCK (Desktop & Mobile)
+         ========================================= -->
+    <nav class="floating-dock" aria-label="Floating Quick Navigation">
+        <a href="#hero">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+            <span>Home</span>
+        </a>
+        <a href="#disciplines">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="3"/></svg>
+            <span>Focus</span>
+        </a>
+        <a href="#education">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+            <span>Edu</span>
+        </a>
+        <a href="#skills">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            <span>Stack</span>
+        </a>
+        <a href="#roadmap">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+            <span>Quests</span>
+        </a>
+        <a href="#contact">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <span>Contact</span>
+        </a>
+    </nav>
 
 </body>
 </html>
