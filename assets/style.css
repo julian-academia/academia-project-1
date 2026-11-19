@@ -43,7 +43,9 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: 'Syne', sans-serif;
     letter-spacing: -0.02em;
     color: var(--pure-white);
@@ -121,8 +123,15 @@ h1, h2, h3 {
 }
 
 @keyframes pulseLive {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0.3; }
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.3;
+    }
 }
 
 /* =========================================
@@ -162,10 +171,25 @@ h1, h2, h3 {
     user-select: none;
 }
 
-.crosshair.tl { top: -8px; left: -5px; }
-.crosshair.tr { top: -8px; right: -5px; }
-.crosshair.bl { bottom: -8px; left: -5px; }
-.crosshair.br { bottom: -8px; right: -5px; }
+.crosshair.tl {
+    top: -8px;
+    left: -5px;
+}
+
+.crosshair.tr {
+    top: -8px;
+    right: -5px;
+}
+
+.crosshair.bl {
+    bottom: -8px;
+    left: -5px;
+}
+
+.crosshair.br {
+    bottom: -8px;
+    right: -5px;
+}
 
 .eyebrow {
     display: flex;
@@ -262,9 +286,12 @@ h1, h2, h3 {
 }
 
 @keyframes chamferAura {
-    0%, 100% {
+
+    0%,
+    100% {
         filter: drop-shadow(0 0 12px rgba(62, 153, 158, 0.35));
     }
+
     50% {
         filter: drop-shadow(0 0 24px rgba(227, 245, 245, 0.5));
     }
@@ -285,23 +312,26 @@ h1, h2, h3 {
     left: 50%;
     width: 170%;
     height: 170%;
-    background: conic-gradient(
-        transparent 0deg,
-        var(--teal-cyan) 60deg,
-        var(--pure-white) 125deg,
-        transparent 185deg,
-        var(--teal-cyan) 255deg,
-        var(--aqua-pale) 320deg,
-        transparent 360deg
-    );
+    background: conic-gradient(transparent 0deg,
+            var(--teal-cyan) 60deg,
+            var(--pure-white) 125deg,
+            transparent 185deg,
+            var(--teal-cyan) 255deg,
+            var(--aqua-pale) 320deg,
+            transparent 360deg);
     transform: translate(-50%, -50%) rotate(0deg);
     animation: rotateHexGlow 5.5s linear infinite;
     z-index: -1;
 }
 
 @keyframes rotateHexGlow {
-    from { transform: translate(-50%, -50%) rotate(0deg); }
-    to { transform: translate(-50%, -50%) rotate(360deg); }
+    from {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+
+    to {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
 }
 
 .chamfer-frame img {
@@ -362,8 +392,13 @@ h1, h2, h3 {
 }
 
 @keyframes marqueeScroll {
-    from { transform: translateX(0); }
-    to { transform: translateX(-50%); }
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
 }
 
 .marquee-track {
@@ -811,8 +846,13 @@ a.console-link:hover {
    PURE CSS SCROLL ANIMATIONS
    ========================================= */
 @keyframes scrollLine {
-    from { transform: scaleX(0); }
-    to { transform: scaleX(1); }
+    from {
+        transform: scaleX(0);
+    }
+
+    to {
+        transform: scaleX(1);
+    }
 }
 
 @keyframes blockReveal {
@@ -820,6 +860,7 @@ a.console-link:hover {
         opacity: 0;
         transform: translateY(26px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
